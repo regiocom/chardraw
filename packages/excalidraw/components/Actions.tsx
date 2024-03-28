@@ -258,6 +258,7 @@ export const ShapesSwitcher = ({
         return (
           <ToolButton
             className={clsx("Shape", { fillable })}
+            id={value}
             key={value}
             type="radio"
             icon={icon}
